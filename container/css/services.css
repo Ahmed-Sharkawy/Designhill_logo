@@ -1,0 +1,26 @@
+        /*  Start services-us.html  */
+.main-header-services-us {
+    width: 100%;
+    height: 100vh;
+
+}
+.main-header-services-us img {
+    background-image: url(../../image/Services.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+.services .container .services-p {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1.5px;;
+}
+
+
+
+        /*  End finish services-us.html  */

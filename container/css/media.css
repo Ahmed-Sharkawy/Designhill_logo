@@ -1,0 +1,166 @@
+@media screen and (min-width:768px) and (max-width:1100px) {
+    
+        /*  Start finish index.html  */
+
+            /* start Services */
+
+    .services .container .area {
+        width: 45%;
+    }
+
+            /* End Services   */
+
+            /* start Contact Us */
+
+    .contact-us .container form {
+        width: 90%;
+    }
+
+            /* End Contact Us */
+
+        /*  End finish index.html  */
+
+/* ========================================================================================================= */
+
+        /*  Start contact-us.html  */
+
+            /*  Start Contact Us  */
+
+    .contact-us .container {
+        flex-direction: column;
+    }
+    .contact-us .container .call-us-for-service {
+        width: 80%;
+    }
+
+                /* End Contact Us   */
+
+        /*  End finish contact-us.html  */
+
+}
+
+@media screen and (max-width:768px) {
+    
+        /*  Start finish index.html  */
+
+            /* start Nav  */
+
+    .main-nav .container {
+        flex-direction: column;
+    }
+
+            /* End Nav  */
+
+            /* start Header  */
+
+    .main-header {
+        height: 400px;
+    }
+
+    .main-header .container  h1 {
+        font-size: 45px;
+    }
+
+    .main-header .container p {
+        font-size: 20px;
+    }
+
+            /* End Header  */
+
+            /* start About Us */
+
+    .about-us .container {
+        flex-direction: column;
+    }
+
+    .about-us .container .left {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about-us .container .right {
+        width: 100%;
+    }
+            /* End Services   */
+
+            /* start Services */
+
+    .services .container {
+        flex-direction: column;
+    }
+
+    .services .container .area {
+        width: 90%;
+    }
+
+    .services .container .area .area-contain button {
+        font-size: 25px;
+    }
+            /* End Services   */
+
+            /* start Contact Us */
+
+    .contact-us .container form {
+        width: 100%;
+    }
+
+            /* End Contact Us */
+
+        /*  End finish index.html  */
+
+/* ========================================================================================================= */
+
+        /*  Start about-us.html  */
+
+            /* start header */
+
+    .main-header-about-us img {
+        height: 400px;
+    }
+
+            /* End header  */
+
+            /* start About Us */
+
+    .about-us .container .center {
+        width: 100%;
+        text-align: center;
+    }
+
+            /* End About Us */
+
+            /*Start Strategy */
+
+    .strategy .container {
+        flex-direction: column;
+    } 
+
+    .strategy .container .about-strategy {
+        width: 100%;
+    }
+
+            /* End Strategy */
+
+        /*  End finish about-us.html  */
+
+/* ========================================================================================================= */
+
+        /*  Start contact-us.html  */
+
+            /*  Start Contact Us  */
+
+    .contact-us .container {
+        flex-direction: column;
+    }
+    .contact-us .container .call-us-for-service {
+        width: 100%;
+    }
+
+                /* End Contact Us   */
+
+        /*  End finish contact-us.html  */
+
+/* ========================================================================================================= */
+
+}

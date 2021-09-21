@@ -1,0 +1,79 @@
+       /*  Start about-us.html  */
+
+            /* start header */
+.main-header-about-us {
+    height: 100vh;
+}
+.main-header-about-us img {
+    background-image: url(../../image/businessman-1370983_960_720.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+            /* End Header */
+
+            /* start About Us */
+
+.about-us .container .center {
+    padding: 20px;
+}
+
+.about-us .container .center h2 {
+    font-size: 40px;
+}
+
+.about-us .container .center p {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1.7px;
+}
+
+
+            /* End About Us */
+
+            /*Start Strategy */
+
+.strategy .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy .container .about-strategy {
+    text-align: center;
+    padding: 25px 2px;
+    position: relative;
+    animation-name: strategy;
+    animation-duration: 2s;
+}
+
+.strategy .container .about-strategy .about-icon img {
+    width: 50%;
+    border-radius: 50%;
+    border: 3px solid #222;
+    padding: 20px;
+}
+
+.strategy .container .about-strategy .about-content h2 {
+    font-size: 35px;
+    color: cornflowerblue;
+    padding: 12px 0;
+}
+
+
+.strategy .container .about-strategy .about-content p {
+    font-size: 20px;
+    padding: 0px 25px;
+}
+
+            /* End Strategy */
+
+        /*  End finish about-us.html  */
+
+
+
+
+/* ========================================================================================================= */

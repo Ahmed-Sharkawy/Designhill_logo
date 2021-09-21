@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    transition: all .7s;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+        /*  Start finish index.html  */
+
+            /* start Nav  */
+
+
+.main-nav {
+    background-color: #eee;
+    border-bottom: 2px solid black ;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav .container div {
+    height: 60px;
+}
+
+.main-nav .container div img{
+    height: 100%;
+    width:200px;
+}
+
+.main-nav .container ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.main-nav .container ul li {
+    margin: 0 20px;
+}
+
+.main-nav .container ul li:last-child {
+    margin-right: 0;
+}
+
+.main-nav .container ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #4B4957;
+    font-family: 'Caveat', cursive;
+}
+
+.main-nav .container ul li .link-home {
+    color: cornflowerblue;
+}
+.main-nav .container ul li a:hover {
+    color: cornflowerblue;
+}
+
+            /* End Nav  */
+
+
+            /* start Header  */
+
+
+.main-header {
+    background-image: url(../../image/nan.jfif);
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.main-header .container  h1 {
+    color: #0854de;
+    font-size: 55px;
+    font-weight: bold;
+    position: relative;
+    animation-name: ahmed;
+    animation-duration: 1s;
+}
+
+.main-header .container  p {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    animation-name: maher;
+    animation-duration: 1s;
+}
+            /* End Header  */
+
+
+/* ====================================================================== */
+
+
+            /* start About Us */
+
+
+.Definition-of-header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.about-us .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+}
+/* .about-us .container .left{
+    flex: 3;
+}*/
+
+.about-us .container .left {
+    width: 55%;
+}
+
+/* ====================================================================== */
+/*.about-us .container .right{
+    flex: 2;
+}
+.about-us .container .right img{
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+.about-us .container .right {
+    width: 40%;
+}
+
+.about-us .container .right img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid silver;
+}
+
+.about-us .container .left h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-us .container .left p {
+    font-size: 18px;
+}
+            /* End About */
+
+/* ====================================================================== */
+
+            /* start Services */
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.services .container .area {
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ====================================================================== */
+
+.services .container .area .images img {
+    max-width: 100%;
+    transition: all .5s linear;
+}
+
+.services .container .area .images {
+    overflow: hidden;
+}
+
+.services .container .area .images img:hover {
+    opacity: .5;
+    transform: scale(1.3,1.3);
+}
+
+.services .container .area .area-contain h3 {
+    margin: 8px 0;
+    font-size: 30px;
+}
+
+.services .container .area .area-contain button {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    background-color: rgba(2, 2, 2, 0.5);
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.services .container .area .area-contain button:hover {
+    color: #222;
+    background-color: #eee;
+    transition: all .5s linear;
+}
+
+
+            /* End Services   */
+
+/* ====================================================================== */
+
+            /* start Contact Us */
+
+            
+.contact-us .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.contact-us .container form {
+    width: 75%;
+    padding: 30px;
+}
+
+.contact-us .container form label {
+    display: block;
+    margin: 10px;
+}
+
+.contact-us .container form input,.contact-us .container form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #a29797;
+}
+
+.contact-us .container form input:focus,
+.contact-us .container form textarea:focus {
+    box-shadow: 0px 0px 10px 2px;
+}
+            /* End Contact Us */
+
+
+            /* start footer */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B4957;
+    height: 70px;
+    color: #fff;
+    font-weight: bold;
+}
+footer p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+
+            /* End footer */
+
+
+
+
+        /*  End finish index.html  */
+
+/* ========================================================================================================= */
+
+        /* Start animation */
+
+@keyframes ahmed {
+    0%{left: -100%;}
+    100%{left: 0px;}
+}
+
+@keyframes maher {
+    0%{left: 100%;}
+    100%{left: 0px;}
+}
+
+@keyframes strategy {
+    0%{bottom: -1500px;}
+    100%{bottom: 0px;}
+}
+
+@keyframes call-us-for-service {
+    0%{top: -1500px;}
+    100%{top: 0px;}
+}
+
+
+        /* End animation */
